@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>multiply</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<table>
+    <script>
+
+        var ammount = window.prompt("Hoeveel rijen?");
+
+        var row = 1;
+        for (row; row <= ammount; row++) {
+            document.write("<tr>");
+            for (var i = 1; i <= ammount; i++) {
+                document.write("<td>" + i * row + "</td>");
+            }
+
+            document.write("</tr>");
+        }
+
+
+    </script>
+</table>
+</body>
+</html>
